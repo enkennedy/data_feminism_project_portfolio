@@ -6,14 +6,14 @@
 }
 
 :root {
-    --primary-color: #bfffbd;
-    --secondary-color: #4e8c4c;
+    --primary-color: #4e8c4c;
+    --secondary-color: #bfffbd;
     --accent-color: #af64d1;
     --text-dark: #170c1c;
-    --text-light: #6b7280;
-    --bg-light: #f9fafb;
+    --text-light: #736878;
+    --bg-light: #f3fcf2;
     --bg-white: #ffffff;
-    --border-color: #e5e7eb;
+    --border-color: #ada5b0;
 }
 
 html {
@@ -86,7 +86,7 @@ nav .container {
 }
 
 .highlight {
-    color: #fbbf24;
+    color: var(--accent-color);
 }
 
 .subtitle {
